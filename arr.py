@@ -21,17 +21,15 @@
 
 import numpy as np
 
-# Zeros matrix
 zeros_matrix = np.zeros((2, 3))
 print("Zeros Matrix:")
 print(zeros_matrix)
 
-# Ones matrix
 ones_matrix = np.ones((3, 3))
 print("Ones Matrix:")
 print(ones_matrix)
 
-# Random matrix
 random_matrix = np.random.randint(1, 20, (3, 3))
 print("Random Matrix:")
 print(random_matrix)
+print("hello")
